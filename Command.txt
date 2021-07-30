@@ -1,0 +1,48 @@
+		--- Command Line ---
+
+mkdir Name- for making folder or directory
+cd Name - for change directory
+touch fileName - for creating new File
+ls - read or see list
+cd dir - change directory
+pwd - current directory
+nano fileName - access file
+cat fileName - read or run file
+cp fileName newFileName- copy file
+mv movefile newmovefile - move file
+rm fileName - remove file
+rmdir dirName - remove directory
+man command - for manual
+
+
+ 		--- Git Command ---
+
+	Working Directory > Stage (add) > Local Repository (commit) > Remote Server
+
+gitclone url - clone or import files from github
+git init - for making repository or tracking files in localhost
+git status - for checking modified files
+
+git add --A, --all - for staging on repository or changes tracking
+git add . - for staging all in current directory
+git add * - for staging all files except deleted file
+git add fileName - for staging individual files
+git reset - for remove from stage and previous status
+
+git commit -m "Comment" - for stage to Local Repository
+git reset head~ - for rollback to previous stage
+
+git rm fileName - for remove file
+git rm fileName -f - for force remove file
+git rm -r folderName - for remove folder
+git reset --hard - for getback file after removed
+
+git branch - to check branches
+git branch branchName - to create new branch including with previous branch
+git checkout branchName - to select/move into other branch
+
+* branch helps to change or modify files without losing main/master files or data.
+* after making changes in files, need to merge with master branch.
+
+git merge branchName -m "Comment" - to merge on main to working branch
+
