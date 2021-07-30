@@ -17,7 +17,7 @@ man command - for manual
 
  		--- Git Command ---
 
-	Working Directory > Stage (add) > Local Repository (commit) > Remote Server
+	Working Directory > Stage (add) > Local Repository (commit) > Remote Server (push)(fetch/pull)
 
 gitclone url - clone or import files from github
 git init - for making repository or tracking files in localhost
@@ -46,3 +46,4 @@ git checkout branchName - to select/move into other branch
 
 git merge branchName -m "Comment" - to merge on main to working branch
 
+git push origin localBranchName - to update or push files into github
