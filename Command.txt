@@ -47,3 +47,8 @@ git checkout branchName - to select/move into other branch
 git merge branchName -m "Comment" - to merge on main to working branch
 
 git push origin localBranchName - to update or push files into github
+git fetch - to make changes files into local repository from github
+
+* after fetching, need to merge files.
+git merge - to sync files between github and local repository
+git pull - to fetch and merge together between github and local repository
